@@ -42,7 +42,7 @@ PRODUCT_PACKAGES += \
     android.hardware.radio.deprecated@1.0
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/init/rild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rild.legacy.rc
+    $(LOCAL_PATH)/configs/init/rild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rild.rc
 
 # Shims
 PRODUCT_PACKAGES += \
